@@ -1,6 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
+.form-control{
+    height: 24px;
+    font-size: 12px;
+}
+
+.sidebar-wrapper{
+    height: calc(100vh - 75px) !important;
+}
+
 html, body {
   padding: 0;
   margin: 0;
